@@ -1,0 +1,62 @@
+.app {
+  text-align: center;
+  display: flex;
+  background-color: #ECF0F1;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.app-header {
+  color: #ECF0F1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  background-color: #2980B9;
+}
+
+.app-link {
+  color:#2980B9;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #E74C3C;
+  color:#ECF0F1;
+  border: 1px solid #2980B9;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin-top:0.5em;
+  margin-left: 0.2em;
+}
+
+.country-list {
+  width: 50%;
+  padding: 1em;
+  margin: 1em;
+}
+
+.detailed-page {
+  width: 50%;
+  padding: 1em;
+  margin:1em;
+  text-align: left;
+  color: black;
+}
+
+h4 {
+  color: #E74C3C;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.detailed-info-section {
+  background-color: #2980B9;
+  color: #ECF0F1;
+  padding: 0.5em;
+  margin-top: 0;
+}
+
+.history-list {
+  color: #2980B9;
+}
